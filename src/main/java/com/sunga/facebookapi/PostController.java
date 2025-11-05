@@ -8,6 +8,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/posts")
+@CrossOrigin(origins = {"http://localhost:5173", "https://facebook-ui-joa2.onrender.com"})
 public class PostController {
 
     @Autowired
